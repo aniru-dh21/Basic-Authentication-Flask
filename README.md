@@ -104,3 +104,26 @@ python manage.py run
 ``` bash
 python manage.py test
 ```
+
+This will give the below output:
+``` bash
+test_validate_invalid_email_format (test_forms.TestLoginForm) ... ok
+test_validate_success_login_form (test_forms.TestLoginForm) ... ok
+test_validate_email_already_registered (test_forms.TestRegisterForm) ... ok
+test_validate_invalid_password_format (test_forms.TestRegisterForm) ... ok
+test_validate_success_register_form (test_forms.TestRegisterForm) ... ok
+test_check_password (test_models.TestUser) ... ok
+test_created_on_defaults_to_datetime (test_models.TestUser) ... ok
+test_get_by_id (test_models.TestUser) ... ok
+test_user_registration (test_models.TestUser) ... ok
+test_validate_invalid_password (test_models.TestUser) ... ok
+test_correct_login (test_routes.TestLoggingInOut) ... ok
+test_logout_behaves_correctly (test_routes.TestLoggingInOut) ... ok
+test_logout_route_requires_login (test_routes.TestPublic) ... ok
+test_main_route_requires_login (test_routes.TestPublic) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 19.577s
+
+OK
+```
