@@ -5,3 +5,4 @@ User authentication is important for protecting sensitive information and resour
 ## Libraries
 
 - <ins>Flask</ins> is a simple, easy-to-use microframework for Python that helps you build scalable and secure web applications.
+- <ins>Flask-Login</ins> provides user session management for Flask. It handles the common tasks of logging in, logging out, and remembering users' sessions over extended periods of time.
