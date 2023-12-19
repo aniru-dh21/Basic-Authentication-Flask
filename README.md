@@ -13,3 +13,51 @@ User authentication is important for protecting sensitive information and resour
 - <ins>Python Decouple</ins> helps you use environment variables in your Python Project.
 
 ## File Structure
+
+```
+Basic-Authentication-Flask
+|   .env
+|   config.py
+|   manage.py
+|   README.md
+|   requirements.txt
+|   
++---src
+|   |   __init__.py
+|   |   
+|   +---accounts
+|   |       forms.py
+|   |       models.py
+|   |       views.py
+|   |       __init__.py
+|   |       
+|   +---core
+|   |       views.py
+|   |       __init__.py
+|   |       
+|   +---static
+|   |       styles.css
+|   |       
+|   \---templates
+|       |   navigation.html
+|       |   _base.html
+|       |   
+|       +---accounts
+|       |       login.html
+|       |       register.html
+|       |       
+|       +---core
+|       |       index.html
+|       |       
+|       \---errors
+|               401.html
+|               404.html
+|               500.html
+|               
+\---tests
+        base_test.py
+        test_forms.py
+        test_models.py
+        test_routes.py
+        __init__.py
+```
