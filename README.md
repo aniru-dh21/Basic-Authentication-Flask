@@ -97,3 +97,5 @@ flask db upgrade
 ``` bash
 python manage.py run
 ```
+
+## Testing the Flask App and Creating the Admin user
