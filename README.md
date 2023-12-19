@@ -99,3 +99,8 @@ python manage.py run
 ```
 
 ## Testing the Flask App and Creating the Admin user
+
+1. We can run all tests using the command:
+``` bash
+python manage.py test
+```
