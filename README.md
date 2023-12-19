@@ -73,3 +73,5 @@ git clone https://github.com/aniru-dh21/Basic-Authentication-Flask.git
 ``` bash
 pip install -r requirements.txt
 ```
+
+3. Now that application is ready (without the tests), you can first migrate the database, and then run the app.
