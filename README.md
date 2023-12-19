@@ -9,3 +9,4 @@ User authentication is important for protecting sensitive information and resour
 - <ins>Flask-Bcrypt</ins> is a Flask extension that provides bcrypt hashing utilities for your application.
 - <ins>Flask-WTF</ins> is a simple integration of Flask and WTForms that helps you create forms in Flask.
 - <ins>Flask-Migrate</ins> is an extension that handles SQLAlchemy database migrations for Flask applications using Alembic. The database operations are made available through the Flask command-line interface.
+- <ins>Flask-Testing</ins> extension provides unit testing utilities for Flask.
