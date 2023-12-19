@@ -127,3 +127,8 @@ Ran 14 tests in 19.577s
 
 OK
 ```
+
+2. We can run the below command to create Admin User:
+``` bash
+python manage.py create_admin
+```
