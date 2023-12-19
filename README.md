@@ -63,3 +63,8 @@ Basic-Authentication-Flask
 ```
 
 ## Running the Flask App for the First Time
+
+1. Clone the Repository using the following command:
+``` bash
+git clone https://github.com/aniru-dh21/Basic-Authentication-Flask.git
+```
