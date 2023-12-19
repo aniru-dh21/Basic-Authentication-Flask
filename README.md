@@ -68,3 +68,8 @@ Basic-Authentication-Flask
 ``` bash
 git clone https://github.com/aniru-dh21/Basic-Authentication-Flask.git
 ```
+
+2. Install the Python Packages using the following command:
+``` bash
+pip install -r requirements.txt
+```
