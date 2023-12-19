@@ -80,3 +80,8 @@ pip install -r requirements.txt
 ``` bash
 flask db init
 ```
+
+5. To migrate the database changes, use the command:
+``` bash
+flask db migrate
+```
