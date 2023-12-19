@@ -75,3 +75,8 @@ pip install -r requirements.txt
 ```
 
 3. Now that application is ready (without the tests), you can first migrate the database, and then run the app.
+
+4. To initialize the database (create a migration repository), use the command:
+``` bash
+flask db init
+```
