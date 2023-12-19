@@ -132,3 +132,11 @@ OK
 ``` bash
 python manage.py create_admin
 ```
+
+This will give the following output:
+``` bash
+Enter email address: admin@myapp.com
+Enter password: 
+Enter password again: 
+Admin with email admin@myapp.com created successfully!
+```
