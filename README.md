@@ -85,3 +85,8 @@ flask db init
 ``` bash
 flask db migrate
 ```
+
+6. To apply the migrations, use the command:
+``` bash
+flask db upgrade
+```
